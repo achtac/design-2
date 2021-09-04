@@ -1,0 +1,562 @@
+header{
+    height: 450px;
+   width: 101%;
+   background-color: red;
+   position: absolute;
+   top:-14px;
+   left: -1%;
+   background-image:url("./les images/bg3.jpg");
+   background-size: cover;
+}
+header ul:nth-child(1){
+    width: 70%;
+    display: inline-block;
+    list-style: none;
+   padding-top: 12px;
+  text-shadow: 1px 1px 20px black;
+}
+header ul:nth-child(1) li{
+    display: inline-block;
+    height: 28px;
+    width: 10%;
+    margin-left: 35PX;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: bodoni mt;
+    color: white;
+}
+header ul:nth-child(1) li::after{
+    display: block;
+    width: 0%;
+content: "";
+ height: 3px;
+ margin-top: 14px;
+ background-color:orange;        
+ transition: width 0.5s;
+}
+header ul:nth-child(1) li:hover::after{
+
+     width: 100%;
+ 
+}
+header ul:nth-child(2) {
+  width: 27%;
+  display: inline-block;
+  list-style: none;
+  float: right;
+  position:absolute;
+  top:0.5%; 
+  left: 70%;
+ padding-top: 12px;
+  text-shadow: 1px 1px 20px black;
+}
+
+
+header ul:nth-child(2) li{
+    display: inline-block;
+    height: 28px;
+    /* width: 5%; */
+    cursor: pointer;
+    margin-left: 32PX;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: bodoni mt;
+    color: white;
+}
+header ul:nth-child(2) li::after{
+ display: block;
+width: 0%;
+content: "";
+ height: 3px;
+ margin-top: 14px;
+ background-color:orange;        
+ transition: width 0.5s;
+}
+header ul:nth-child(2) li:hover::after{
+
+     width: 100%;
+ 
+}
+header  #motenter{
+text-align: center;
+color: white;
+width: 70%;
+margin: auto;
+background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+header #motenter h1{
+position: absolute;
+top:25%;
+letter-spacing: 22px;
+font-size: 58px;
+text-transform: uppercase;
+padding-top: 12px;
+font-weight: bold ;
+font-family: consolas;
+background:-webkit-linear-gradient(250deg,orange 70%, white 50%);
+/* background-image: url("./les images/bg7.jpg"); */
+text-shadow: 1px 1px 100px black;
+background-clip:text;
+-webkit-background-clip: text;
+color: transparent;
+}
+header #motenter p{
+    position: absolute;
+    top:51%;
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 26px;
+}
+header #motenter button{
+    position:absolute;
+    top:75%;
+    width: 15%;
+    
+    height: 45px;
+    font-weight: bold;
+   background-color: orange;
+   border-radius: 12px;
+   border: 1px solid silver;
+   cursor: pointer; 
+}
+
+header #motenter button:hover{
+    position:absolute;
+    top:75%;
+    width: 15%;
+    height: 45px;
+    font-weight: bold;
+   background-image:url(les\ images/bg1.jpg);
+   background-size: cover;
+   border-radius: 12px;
+   border: 1px solid silver;
+   cursor: pointer; 
+}
+#SerVices{
+  width: 90%;
+  padding-top: 25px;
+  padding-left: 32px;
+  margin: auto;
+  font-size: 20px;
+  font-family: papyrus;
+  position: relative;
+  height: 850px;  
+}
+#SerVices h2{
+    color: rgb(113, 51, 214);
+    font-size: 85px;
+    font-family: japan;
+    letter-spacing: 12px;
+}
+#hebergement {
+    width: 100%;
+    height:auto;
+    margin: auto;
+}
+#hebergement #texte{
+    float: left;
+     width: 50%;
+     text-align: justify;
+     /* margin-right:2px; */
+}
+
+#hebergement #image{
+  width: 50%;
+ 
+  float: right;
+}
+#hebergement #image img{
+    width: 80%;
+    position: relative;
+    left:15%;
+    margin-top: -25px;
+    height: 280px;
+    /* float: left; */
+}
+
+
+
+
+
+
+
+
+
+
+#Securit {
+    position: relative;
+    margin-top: 85px;
+    width: 90%;
+    height:25PX;
+    margin: auto;
+    top:128%;
+}
+#Securit #texte{
+    float: right;
+     width: 50%;
+     text-align: justify;
+     /* margin-right:2px; */
+}
+
+#Securit #image{
+  width: 50%;
+ 
+  float: left;
+}
+#Securit #image img{
+    /* width: 80%; */
+    height: 58px;
+    position: relative;
+    left:15%;
+    margin-top: -25px;
+    height: 280px;
+
+}
+
+
+
+
+#maintenance {
+position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height:250PX;
+       
+    /* margin: auto; */
+    top:-25%;
+}
+#maintenance #texte{
+    float: right;
+     width: 50%;
+     text-align: justify;
+     /* margin-right:2px; */
+}
+
+#maintenance #image{
+  width: 50%;
+ 
+  float: left;
+}
+#maintenance     #image img{
+    /* width: 80%; */
+    height: 58px;
+    position: relative;
+    left:15%;
+    margin-top: -25px;
+    height: 280px;
+
+}
+
+
+
+
+#developp {
+position: relative;
+    width: 100%;
+    height:25PX;
+    /* margin: auto; */
+    /* top:1258%; */
+    /* left: -5%; */
+}
+#developp #texte{
+    float: left;
+     width: 50%;
+     text-align: justify;
+     /* margin-right:2px; */
+}
+
+#developp #image{
+  width: 50%;
+ 
+  float: right;
+}
+#developp     #image img{
+    /* width: 80%; */
+    height: 58px;
+    position: relative;
+    left:15%;
+    margin-top: -25px;
+    height: 280px;
+
+}
+
+
+
+
+#transfert {
+position: relative;
+width: 100%;
+
+    height:290PX;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#transfert #texte{
+    float: left;
+     width: 50%;
+     text-align: justify;
+     /* margin-right:2px; */
+}
+
+#transfert #image{
+  width: 50%;
+ 
+  float: right;
+}
+#transfert     #image img{
+    /* width: 80%; */
+    height: 58px;
+    position: relative;
+    left:15%;
+    margin-top: -25px;
+    height: 280px;
+
+}
+
+
+#apk{
+    position: relative;
+    height: 320px;
+    width: 101.25%;
+    left: -1%;
+    display: flex;
+
+    background-color: tomato;
+    /* position: relative;top:280% */
+}
+
+#apk img{
+ margin-left: 125px;   
+}
+#apk #txt{
+    color: white;
+    margin-left: 45px;
+}
+#apk h3{
+    font-size: 45px;
+}
+#apk button{
+    height: 45px;
+    width: 35%;
+    border-radius: 12px;
+    background-color: orange;
+    border: 1px solid silver;
+}
+#employe{
+    height: 350px;
+    width: 100%;
+    padding-top: 92px;
+    text-align: center;
+    /* background-color: red; */
+}
+#employe h1{
+    color: rgb(113, 51, 214);
+    font-size: 85px;
+}
+ #Personne{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+  #Personne div{
+      padding-top: 12px;
+    height: 270px;
+    width: 350px;
+    word-wrap: break-all;
+    overflow: hidden;
+    /* transition: all 1s; */
+    /* background-color: blue;   */
+}
+#Personne  div:hover {
+  padding-top: 12px;
+    height: 370px;
+    width: 350px;
+    cursor: pointer;
+    word-wrap: break-all;
+    overflow: hidden;
+    transition: height 1s;
+    background-color: orange;
+
+
+}
+
+#Personne div:hover img{
+    width:99%;
+    height: 250px;
+    position: relative;
+    top:-5%;
+        transition: top 1s;
+
+}
+ #Personne div img{
+    width:99%;
+    height: 250px;
+    position: relative;
+    top:15%;
+}
+footer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(71, 46, 42);
+}
+#partenaires{
+    background-image: url("les images/bg6.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 510px;
+
+    width: 101.21%;
+    position: relative;
+    left:-1%;
+    margin: auto;
+}   
+#program{
+    margin: auto;
+    width: 90%;
+}
+#program h1{
+        color: rgb(113, 51, 214);
+    font-size: 85px;
+    width: 100%;
+}
+#partenaires    #lespartenaires{
+    display: grid;
+    width: 50%;
+    margin: auto;
+    height: 450px;
+    padding:25px;
+}
+#partenaires #lespartenaires img:nth-child(1){
+height:220px;
+width: 99%;
+grid-column: 1/2;
+grid-row: 1;
+}
+
+#partenaires #lespartenaires img:nth-child(2){
+height:220px;
+width: 99%;
+grid-column: 2/2;
+grid-row: 1;
+}
+
+#partenaires #lespartenaires img:nth-child(3){
+width: 99%;
+height: 220px;
+grid-column: 1/2;
+grid-row: 2;
+}
+footer div{
+    display: flex;
+    height:322px;
+    width: 20%;
+    /* background:red; */
+}
+footer div:nth-child(1){
+    padding-left: 22px;
+}
+footer div:nth-child(1) h4{
+    font-size: 32px;
+    color: white;
+    height: 62px;
+    border-bottom: 5px solid white;
+    /* background: red; */
+}
+footer ul {
+    list-style: none;
+}
+footer ul li{
+    height: 70px;
+    font-size: 21px;
+    margin-left: 12px;
+    color: white;
+}
+footer  i{
+    color:blue;
+font-size: 21px;
+
+}
+
+footer ul li h1{
+position: relative;
+top:-75%;
+font-family: gabriola ;
+}
+
+footer ul h1{
+    position: relative;
+  margin-top: 45px;
+}
+footer img{
+    height: 200px;
+    position: relative;
+    top:55%;
+    left: -54%;
+}
+
+#fin{
+    margin-top: 2px;
+    padding-left: 12px;
+    font-family: papyrus;
+    background: tomato  ;
+    height: 75px;
+    width: 99%;
+    border-top: 2px solid white;
+      background-color: rgb(71, 46, 42);
+  font-size: 25px;
+  color: white;
+}
+
+#lechef{
+    width: 80%;
+    margin:auto;
+    height:550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#lechef img{
+    /* position:absolute; */
+}
+#lechef #image{
+    width: 70%;
+}
+#lechef #texte{
+    width: 100%;
+    font-family: papyrus;
+    padding-right: -84px;
+}
+#lechef #image img:nth-child(2){
+    
+    position: relative;
+     height: 325px;
+    top:-45%;
+    left:-23%;
+
+}
+#m1{
+
+}
+
+
+#hl{
+    text-align: center;
+    font-size: 75px;
+    color:rgb(148, 63, 228);
+    font-family: Papyrus;
+}
