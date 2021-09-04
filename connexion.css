@@ -1,0 +1,260 @@
+body{
+    overflow: hidden;
+}
+#connexion{
+
+    height: 680px;
+    width:101%;
+    position :absolute;
+    left:-1%;
+    top:-1%;
+    background-image: url('les images/bg3.jpg');
+    background-size: cover;
+   box-shadow:inset 200px 5px 606px black;
+   background-attachment: fixed;
+   
+     z-index:  1;
+   
+
+    }
+#voila{
+    height: 147px;
+    width: 250px;
+    font-weight: none;
+    background-color: transparent;
+    color: rgb(92, 87, 87);
+    border:1px solid transparent;
+    position: relative;
+    top:25%;
+    cursor:pointer;
+    font-size: 52px;
+}
+
+#voila:hover{
+    height: 147px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    transition: all 2s;
+    border:1px solid transparent;
+    position: relative;
+    top:25%;
+    cursor:pointer;
+    font-size: 52px;
+}
+#voil{
+    height: 147px;
+    width: 250px;
+    font-weight: none;
+    background-color: transparent;
+    color: rgb(92, 87, 87);
+    border:1px solid transparent;
+    position: relative;
+    top:-136%;
+    cursor:pointer;
+    font-size: 52px;
+}
+
+#voil:hover{
+    height: 147px;
+    width: 250px;
+    background-color: transparent;
+    color: white;
+    transition: all 2s;
+    border:1px solid transparent;
+    position: relative;
+    top: -136%;
+    cursor:pointer;
+    font-size: 52px;
+}
+#inscription{
+    height: 690px;
+    width:101%;
+    position :absolute;
+    left:-1%;  
+    z-index: 0;
+    top:-1%;
+    background-image: url('les images/2.jpg');
+    background-size: cover;
+   box-shadow:inset 200px 5px 606px black;
+   background-attachment: fixed;
+   
+   
+   
+} 
+#inscription  aside:nth-child(1){
+    width: 72%;
+    height: 557px;
+    z-index: 1;
+    position: relative;
+    top:5%;
+    border-radius: 12px;
+    left:2%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin:top;
+        background-image: url('les images/2.jpg');
+    
+}
+
+#inscription  aside:nth-child(2){
+    width: 72%;
+    height: 557px;
+    z-index: 0;
+    position: relative;
+    top:-70%;
+    border-radius: 12px;
+    left:2%;
+    margin: auto;
+    background-color: blue;
+        /* background-image: url('les images/1.jpg'); */
+    
+}
+#btn i{
+    color: white;
+    font-size: 20px;
+    display: none;
+
+}
+ #btn i:nth-child(1){
+    color: white;
+    margin-left: 522px;
+    font-size: 20px;
+    margin-top: 100px;    
+}
+
+ #btn i:nth-child(2){
+    color: white;
+    margin-left: 82px;
+      margin-top: 10px; 
+    font-size: 20px;
+}
+     
+#btn i:nth-child(3){
+    color: white;
+    margin-left: 72px;
+      margin-top: 10px; 
+    font-size: 20px;
+}
+     
+#inscription  aside form{
+  /* position: absolute; */
+    /* z-index: 100; */
+        /* background-image: url('les images/1.jpg'); */
+    
+}
+
+section:nth-child(1){
+    height: 580px;
+    width: 25%;
+    top:8%;
+    left: 32%;
+    position:absolute ;
+    margin:auto;
+    z-index: 1;
+    border-radius: 12px;
+     background-image: url('les images/bg3.jpg');
+     filter:saturate(554%);
+       filter:drop-shadow(-55px 45px 58px blue);
+}
+section:nth-child(2){
+      text-align: center;
+    align-content: center;
+    height: 580px;
+    width: 25%;
+    font-size: 35px;
+    transition: all 2s;
+    top:8%;
+    left: 52%;
+    z-index: 0;
+    position:absolute ;
+    margin:auto;
+    border-radius: 22px;
+     background-image: url('les images/bg3.jpg');
+     filter:drop-shadow(25px 45px 58px orange);
+}
+
+#ecran{
+ height: 470px;
+ width: 95%;
+ margin: auto;
+background-color: white;
+}
+
+#ecran form{
+    padding-top: 12px;
+     font-family:papyrus;
+    text-align: center;
+}
+#ecran form input[type="text"],input[type="password"]{
+    height: 32px;
+    
+}
+
+#ecran form input[type="submit"],input[type="reset"]{
+    height: 32px;
+    width: 45%;
+    background-color:rgb(94, 54, 238);
+    border:1px solid black;
+    color: white;
+    border-radius: 12px;
+    
+}
+
+#ecran form input[type="submit"]:hover{
+    height: 32px;
+    width: 45%;
+     background-color:rgb(218, 102, 25);
+    border:1px solid black;
+    color: white;
+    border-radius: 12px;
+     cursor:pointer;    
+}
+input[type="reset"]:hover{
+    height: 32px;
+    width: 45%;
+    background-color:rgb(218, 102, 25);
+    border:1px solid black;
+    color: white;
+    border-radius: 12px;
+    cursor:pointer;
+    
+}
+#ecran #btn{
+    height: 20px;
+}
+ #btn i{
+    color: white;
+    font-size: 20px;
+
+}
+ #btn i:nth-child(1){
+    color: white;
+    margin-left: 52px;
+    font-size: 20px;
+    margin-top: 10px;    
+}
+
+ #btn i:nth-child(2){
+    color: white;
+    margin-left: 82px;
+      margin-top: 10px; 
+    font-size: 20px;
+}
+     
+#btn i:nth-child(3){
+    color: white;
+    margin-left: 72px;
+      margin-top: 10px; 
+    font-size: 20px;
+}
+     table{
+         position: absolute;
+         top: 8%;
+         left:20%;
+     }
+     label{
+         width: 30%;
+         float: left;
+     }
